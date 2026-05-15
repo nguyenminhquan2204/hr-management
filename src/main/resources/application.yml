@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hoidanit-spring-rest-with-ai
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hr_management
+    username: postgres
+    password: quan220424
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: hoidanitjwtsecretkeyHS256hoidanitjwtsecretkeyHS256hoidanitjwt
+  expiration: 86400000
